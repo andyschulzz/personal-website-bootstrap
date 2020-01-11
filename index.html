@@ -213,46 +213,45 @@
 			</section>
 		</main>
 		<footer id="kontakt" class="mt-4 bg light">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a
+						class="nav-link active text-dark"
+						id="home-tab"
+						data-toggle="tab"
+						href="#home"
+						role="tab"
+						aria-controls="home"
+						aria-selected="true"
+						>Email</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						id="profile-tab"
+						data-toggle="tab"
+						href="#profile"
+						role="tab"
+						aria-controls="profile"
+						aria-selected="false"
+						>Mobil</a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link text-dark"
+						id="messages-tab"
+						data-toggle="tab"
+						href="#messages"
+						role="tab"
+						aria-controls="messages"
+						aria-selected="false"
+						>Post</a
+					>
+				</li>
+			</ul>
 			<div class="container">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a
-							class="nav-link active text-dark"
-							id="home-tab"
-							data-toggle="tab"
-							href="#home"
-							role="tab"
-							aria-controls="home"
-							aria-selected="true"
-							>Email</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link text-dark"
-							id="profile-tab"
-							data-toggle="tab"
-							href="#profile"
-							role="tab"
-							aria-controls="profile"
-							aria-selected="false"
-							>Mobil</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							class="nav-link text-dark"
-							id="messages-tab"
-							data-toggle="tab"
-							href="#messages"
-							role="tab"
-							aria-controls="messages"
-							aria-selected="false"
-							>Post</a
-						>
-					</li>
-				</ul>
-
 				<div class="tab-content mt-3">
 					<div
 						class="tab-pane active"
@@ -260,7 +259,7 @@
 						role="tabpanel"
 						aria-labelledby="home-tab"
 					>
-						<p class="text-muted h5 font-weight-light">myandy@gmx.net</p>
+						<p class="text-muted font-weight-light">myandy@gmx.net</p>
 					</div>
 					<div
 						class="tab-pane"
@@ -268,7 +267,7 @@
 						role="tabpanel"
 						aria-labelledby="profile-tab"
 					>
-						<p class="text-muted h5 font-weight-light">0151 / 18203667</p>
+						<p class="text-muted font-weight-light">0151 / 18203667</p>
 					</div>
 					<div
 						class="tab-pane"
@@ -276,18 +275,10 @@
 						role="tabpanel"
 						aria-labelledby="messages-tab"
 					>
-						<small class="text-muted h5 font-weight-light">
+						<p class="text-muted font-weight-light">
 							Rübker Straße 11<br />
 							21614 Buxtehude
-						</small>
-					</div>
-					<div
-						class="tab-pane"
-						id="settings"
-						role="tabpanel"
-						aria-labelledby="settings-tab"
-					>
-						...
+						</p>
 					</div>
 				</div>
 			</div>
