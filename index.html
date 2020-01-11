@@ -19,7 +19,7 @@
 	</head>
 	<body class="bg-light container">
 		<header>
-			<nav>
+			<nav role="navigation">
 				<ul class="nav nav-tabs">
 					<li class="nav-item">
 						<a class="nav-link active text-dark" href="#profil">Profil</a>
@@ -31,191 +31,173 @@
 			</nav>
 		</header>
 		<main>
-			<div class="container mt-4 shadow d-lg-block">
-				<div class="row bg-light">
-					<div class="col-4 p-5 text-center d-none d-lg-block">
-						<br /><img class="rounded-circle" src="img/logoich.png" alt="" />
-					</div>
-					<section class="col-12 col-md-6 pb-4 mt-md-5">
-						<h1 class="h2 display-3">Andy<b class="display-4 h4">Schulz</b></h1>
-						<h2>
-							<small class="h5 text-muted text-nowrap"
-								>neue fische - Web Developer</small
-							>
-						</h2>
-						<button type="button" class="mt-2 btn-disable btn-outline-danger">
-							HTML5
-						</button>
-						<button type="button" class="mt-2 btn-disable btn-outline-primary">
-							CSS
-						</button>
-						<button
-							type="button"
-							class="mt-2 btn-disable btn-outline-secondary"
+			<section class="mt-4 shadow d-lg-block row bg-light">
+				<div class="col-4 p-5 text-center d-none d-lg-block">
+					<br /><img class="rounded-circle" src="img/logoich.png" alt="" />
+				</div>
+				<div class="col-12 col-md-6 pb-4 mt-md-5">
+					<h1 class="h2 display-3">Andy<b class="display-4 h4">Schulz</b></h1>
+					<h2>
+						<small class="h5 text-muted text-nowrap"
+							>neue fische - Web Developer</small
 						>
-							Bootstrap
-						</button>
-						<button type="button" class="mt-2 btn-disable btn-outline-warning">
-							JavaScript
-						</button>
-						<button type="button" class="mt-2 btn-disable btn-outline-primary">
-							Visual Studio Code
-						</button>
-						<button type="button" class="mt-2 btn-disable btn-outline-info">
-							and more
-						</button>
-					</section>
+					</h2>
+					<button type="button" class="mt-2 btn-disable btn-outline-danger">
+						HTML5
+					</button>
+					<button type="button" class="mt-2 btn-disable btn-outline-primary">
+						CSS
+					</button>
+					<button type="button" class="mt-2 btn-disable btn-outline-secondary">
+						Bootstrap
+					</button>
+					<button type="button" class="mt-2 btn-disable btn-outline-warning">
+						JavaScript
+					</button>
+					<button type="button" class="mt-2 btn-disable btn-outline-primary">
+						Visual Studio Code
+					</button>
+					<button type="button" class="mt-2 btn-disable btn-outline-info">
+						and more
+					</button>
 				</div>
-			</div>
+			</section>
 
-			<div class="container mt-4">
-				<div class="row">
-					<section class="card-deck h-100">
-						<div class="card bg-light shadow">
-							<div class="p-4">
-								<img
-									class="card-img-top rounded-circle"
-									src="img/github.png"
-									alt="GitHub"
-								/>
-							</div>
-							<div class="card-body d-flex flex-column">
-								<h5 class="card-title">GitHub</h5>
-								<p class="card-text">
-									Eine Übersicht über meinen veröffentlichten Code bei GitHub.
-								</p>
-								<a
-									href="https://github.com/andyschulzz"
-									target="_blank"
-									class="btn btn-sm btn-outline-dark mt-auto mr-auto"
-									>Mehr</a
-								>
-							</div>
-						</div>
-						<div class="card bg-light shadow">
-							<div class="p-4">
-								<img
-									class="card-img-top rounded-circle"
-									src="img/codepen.png"
-									alt="Code Pen"
-								/>
-							</div>
-							<div class="card-body d-flex flex-column">
-								<h5 class="card-title">Code Pen</h5>
-								<p class="card-text">
-									Verschaffen Sie sich Einblick über meine Referenzen bei Code
-									Pen.
-								</p>
-								<a
-									href="https://codepen.io/andyschulzz"
-									target="_blank"
-									class="btn btn-sm btn-outline-dark mt-auto mr-auto"
-									>Mehr</a
-								>
-							</div>
-						</div>
-						<div class="card bg-light shadow">
-							<div class="p-4">
-								<img
-									class="card-img-top rounded-circle"
-									src="img/neuefische.png"
-									alt="neue fische"
-								/>
-							</div>
-							<div class="card-body d-flex flex-column">
-								<h5 class="card-title">neuefische</h5>
-								<p class="card-text">
-									In nur 12 Wochen Web Developer werden? Das geht! Und ich bin
-									der lebende Beweis!
-								</p>
-								<a
-									href="https://neuefische.de/"
-									target="_blank"
-									class="btn btn-sm btn-outline-dark mt-auto mr-auto"
-									>Mehr</a
-								>
-							</div>
-						</div>
-					</section>
+			<section class="row mt-4 card-deck h-100">
+				<div class="card bg-light shadow">
+					<div class="p-4">
+						<img
+							class="card-img-top rounded-circle"
+							src="img/github.png"
+							alt="GitHub"
+						/>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title">GitHub</h5>
+						<p class="card-text">
+							Eine Übersicht über meinen veröffentlichten Code bei GitHub.
+						</p>
+						<a
+							href="https://github.com/andyschulzz"
+							target="_blank"
+							class="btn btn-sm btn-outline-dark mt-auto mr-auto"
+							>Mehr</a
+						>
+					</div>
 				</div>
-			</div>
-
-			<section class="row mt-4 bg-light">
-				<div class="container p-3">
-					<div class="row text-center">
-						<div class="col-md-2 col-4 p-4">
-							<a href="http://www.instagram.com/" target="_blank"
-								><img src="img/instagram.png" alt=""
-							/></a>
-						</div>
-						<div class="col-md-2 col-4 p-4">
-							<a href="http://www.youtube.com/" target="_blank"
-								><img src="img/youtube.png" alt=""
-							/></a>
-						</div>
-						<div class="col-md-2 col-4 p-4">
-							<a href="https://www.linkedin.com/" target="_blank"
-								><img src="img/linkedin.png" alt=""
-							/></a>
-						</div>
-						<div class="col-md-2 col-4 p-4">
-							<a href="https://www.xing.com/" target="_blank"
-								><img src="img/xing.png" alt=""
-							/></a>
-						</div>
-						<div class="col-md-2 col-4 p-4">
-							<a href="https://www.facebook.com/" target="_blank"
-								><img src="img/facebook.png" alt=""
-							/></a>
-						</div>
-						<div class="col-md-2 col-4 p-4">
-							<a href="mailto:myandy@gmx.net" target="_blank"
-								><img src="img/mail.png" alt=""
-							/></a>
-						</div>
+				<div class="card bg-light shadow">
+					<div class="p-4">
+						<img
+							class="card-img-top rounded-circle"
+							src="img/codepen.png"
+							alt="Code Pen"
+						/>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title">Code Pen</h5>
+						<p class="card-text">
+							Verschaffen Sie sich Einblick über meine Referenzen bei Code Pen.
+						</p>
+						<a
+							href="https://codepen.io/andyschulzz"
+							target="_blank"
+							class="btn btn-sm btn-outline-dark mt-auto mr-auto"
+							>Mehr</a
+						>
+					</div>
+				</div>
+				<div class="card bg-light shadow">
+					<div class="p-4">
+						<img
+							class="card-img-top rounded-circle"
+							src="img/neuefische.png"
+							alt="neue fische"
+						/>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title">neuefische</h5>
+						<p class="card-text">
+							In nur 12 Wochen Web Developer werden? Das geht! Und ich bin der
+							lebende Beweis!
+						</p>
+						<a
+							href="https://neuefische.de/"
+							target="_blank"
+							class="btn btn-sm btn-outline-dark mt-auto mr-auto"
+							>Mehr</a
+						>
 					</div>
 				</div>
 			</section>
 
-			<section id="profil" class="container shadow bg-light">
-				<div class="row mt-4">
-					<div class="col-lg-6 bg-light p-4">
-						<h3 id="profil" class="display-5">über mich</h3>
-						Ich bin 31 Jahre alt und wohne in Buxtehude. Lorem ipsum dolor sit
-						amet consectetur adipisicing elit. Laborum eos adipisci officia.
-						Fugiat mollitia exercitationem nam iure doloremque cupiditate
-						facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quis, quos?<br /><br />
-						<center>
-							<img
-								class="d-lg-none mobile-image text-center rounded-circle"
-								src="img/logoich.png"
-								alt=""
-							/>
-						</center>
-					</div>
-					<div class="col-lg-6 bg-light p-4">
-						<div class="row">
-							<ul class="list-unstyled">
-								<li>
-									<span class="badge badge-secondary">2009-2012</span><br />
-									Ausbilding zum IT-Systemkaufmann Computacenter AG & Co. oHG
-								</li>
-								<li>
-									<span class="badge badge-secondary">2013</span><br />
-									IT-Consultant Concare IT A/S
-								</li>
-								<li>
-									<span class="badge badge-secondary"> 2014-2019 </span><br />
-									IT-Servicedesk Administrator hanseConcept GmbH
-								</li>
-								<li>
-									<span class="badge badge-dark"> 2020 </span><br />
-									Web Developer Bootcamp bei neue fische
-								</li>
-							</ul>
-						</div>
-					</div>
+			<section class="row mt-4 bg-light p-3 text-center">
+				<div class="col-md-2 col-4 p-4">
+					<a href="http://www.instagram.com/" target="_blank"
+						><img src="img/instagram.png" alt=""
+					/></a>
+				</div>
+				<div class="col-md-2 col-4 p-4">
+					<a href="http://www.youtube.com/" target="_blank"
+						><img src="img/youtube.png" alt=""
+					/></a>
+				</div>
+				<div class="col-md-2 col-4 p-4">
+					<a href="https://www.linkedin.com/" target="_blank"
+						><img src="img/linkedin.png" alt=""
+					/></a>
+				</div>
+				<div class="col-md-2 col-4 p-4">
+					<a href="https://www.xing.com/" target="_blank"
+						><img src="img/xing.png" alt=""
+					/></a>
+				</div>
+				<div class="col-md-2 col-4 p-4">
+					<a href="https://www.facebook.com/" target="_blank"
+						><img src="img/facebook.png" alt=""
+					/></a>
+				</div>
+				<div class="col-md-2 col-4 p-4">
+					<a href="mailto:myandy@gmx.net" target="_blank"
+						><img src="img/mail.png" alt=""
+					/></a>
+				</div>
+			</section>
+
+			<section id="profil" class="container shadow bg-light row mt-4">
+				<div class="col-lg-6 bg-light p-4">
+					<h3 id="profil" class="display-5">über mich</h3>
+					Ich bin 31 Jahre alt und wohne in Buxtehude. Lorem ipsum dolor sit
+					amet consectetur adipisicing elit. Laborum eos adipisci officia.
+					Fugiat mollitia exercitationem nam iure doloremque cupiditate facilis?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+					quos?<br /><br />
+					<center>
+						<img
+							class="d-lg-none mobile-image text-center rounded-circle"
+							src="img/logoich.png"
+							alt=""
+						/>
+					</center>
+				</div>
+				<div class="col-lg-6 bg-light p-4 row">
+					<ul class="list-unstyled">
+						<li>
+							<span class="badge badge-secondary">2009-2012</span><br />
+							Ausbilding zum IT-Systemkaufmann Computacenter AG & Co. oHG
+						</li>
+						<li>
+							<span class="badge badge-secondary">2013</span><br />
+							IT-Consultant Concare IT A/S
+						</li>
+						<li>
+							<span class="badge badge-secondary"> 2014-2019 </span><br />
+							IT-Servicedesk Administrator hanseConcept GmbH
+						</li>
+						<li>
+							<span class="badge badge-dark"> 2020 </span><br />
+							Web Developer Bootcamp bei neue fische
+						</li>
+					</ul>
 				</div>
 			</section>
 		</main>
@@ -258,35 +240,33 @@
 					>
 				</li>
 			</ul>
-			<div class="container">
-				<div class="tab-content mt-3">
-					<div
-						class="tab-pane active"
-						id="home"
-						role="tabpanel"
-						aria-labelledby="home-tab"
-					>
-						<p class="text-muted font-weight-light">myandy@gmx.net</p>
-					</div>
-					<div
-						class="tab-pane"
-						id="profile"
-						role="tabpanel"
-						aria-labelledby="profile-tab"
-					>
-						<p class="text-muted font-weight-light">0151 / 18203667</p>
-					</div>
-					<div
-						class="tab-pane"
-						id="messages"
-						role="tabpanel"
-						aria-labelledby="messages-tab"
-					>
-						<p class="text-muted font-weight-light">
-							Rübker Straße 11<br />
-							21614 Buxtehude
-						</p>
-					</div>
+			<div class="tab-content mt-3 ml-3">
+				<div
+					class="tab-pane active"
+					id="home"
+					role="tabpanel"
+					aria-labelledby="home-tab"
+				>
+					<p class="text-muted font-weight-light">myandy@gmx.net</p>
+				</div>
+				<div
+					class="tab-pane"
+					id="profile"
+					role="tabpanel"
+					aria-labelledby="profile-tab"
+				>
+					<p class="text-muted font-weight-light">0151 / 18203667</p>
+				</div>
+				<div
+					class="tab-pane"
+					id="messages"
+					role="tabpanel"
+					aria-labelledby="messages-tab"
+				>
+					<p class="text-muted font-weight-light">
+						Rübker Straße 11<br />
+						21614 Buxtehude
+					</p>
 				</div>
 			</div>
 
